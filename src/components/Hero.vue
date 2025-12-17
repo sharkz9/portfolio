@@ -1,7 +1,7 @@
 <template>
   <div class="hero-inner">
     <h1 class="title">Volkan Kaya</h1>
-    <p class="subtitle">Designer · Developer · Abstract Artist</p>
+    <p class="subtitle">.NET Developer</p>
     <div class="actions">
       <router-link class="btn" to="/projects">See Projects</router-link>
       <router-link class="btn ghost" to="/about">About Me</router-link>

@@ -8,5 +8,3 @@ Install & run:
 npm install
 npm run dev
 ```
-
-If you previously installed dependencies inside `frontend/`, consider removing or updating nested `node_modules` and lockfiles to avoid conflicts.

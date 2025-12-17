@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <div class="brand">Artful Portfolio</div>
+    <div class="brand">Volkan Kaya - Portfolio</div>
     <ul class="links">
       <li><router-link to="/" active-class="active">Home</router-link></li>
       <li><router-link to="/projects" active-class="active">Projects</router-link></li>
