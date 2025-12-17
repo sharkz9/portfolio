@@ -15,7 +15,7 @@
         <div class="art" :style="{ background: 'linear-gradient(135deg, rgba(100,150,200,0.9), rgba(255,255,255,0.05))' }"></div>
         <div class="meta">
           <h3>Project Emoji Movie Guesser</h3>
-          <p>Interactive art piece blending code and design.</p>
+          <p>A movie guesser game using emojis as clues, using APIs like OMDB and generative AI to generate emojis based on movie titles.</p>
         </div>
       </div>
       <div class="tile project-three">
@@ -114,7 +114,7 @@ export default {
           const y = e.clientY - rect.top - rect.height/2
           gsap.to(t, { rotationY: x/20, rotationX: -y/20, transformPerspective: 600, duration: 0.5 })
         })
-        t.addEventListener('mouseleave', () => gsap.to(t, { rotationY: 0, rotationX: 0, duration: 0.7 }))
+        t.addEventListener('mouseleave', () => gsap.to(t, { rotationY: 0, rotationX: 0, duration: 0.6 }))
       })
     })
   }
